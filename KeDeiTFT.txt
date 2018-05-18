@@ -1,0 +1,20 @@
+ Unzip the file and start the installation.
+
+      First expansion sd card    sudo raspi-config select expand_roofts then sudo reboot
+
+     Restart enter the following command:
+
+    Unzip the file      tar -xzvf LCD_show_v6.tar.gz
+
+    Jumped into a folder       cd LCD_show_v6
+
+    To upgrade the system update        sudo apt-get update
+
+      Backup data       sudo ./LCD_backup
+
+    Install the driver       sudo ./LCD35_v
+
+    Wait for some time and the system will install the driver automatically restarts
+
+    If you want to re-use before installing the system, you can use       sudo ./LCD_restore
+
